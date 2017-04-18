@@ -56,7 +56,7 @@ d3.json('https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/mas
 
 		const xAxis = d3.axisBottom(xScale)
 						.tickFormat(function(d) {
-							return d
+							return d.
 						})
 						.ticks(5);
 		const yAxis = d3.axisLeft(yScale);
